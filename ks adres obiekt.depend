@@ -2,7 +2,7 @@
 1598979961 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1598980582 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\main.cpp
+1599070272 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\main.cpp
 	<iostream>
 	<fstream>
 	<windows.h>
@@ -23,7 +23,7 @@
 	"ksiazkaADRESOWA.h"
 	<windows.h>
 
-1599070246 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.h
+1599072398 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.h
 	<iostream>
 	<vector>
 	"Uzytkownik.h"
