@@ -1,0 +1,17 @@
+#include <iostream>
+#include <fstream>
+#include <windows.h>
+#include <vector>
+#include <algorithm>
+#include <sstream>
+#include "ksiazkaADRESOWA.h"
+/* MADE WITH LOVE */
+
+using namespace std;
+
+int main()
+{
+    KsiazkaAdresowa ksiazkaAdresowa;
+    ksiazkaAdresowa.rejestracjaUzytkownika();
+    ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
+}
