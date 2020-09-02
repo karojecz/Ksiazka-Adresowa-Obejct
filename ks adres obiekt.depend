@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1598979961 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1598980582 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\main.cpp
+	<iostream>
+	<fstream>
+	<windows.h>
+	<vector>
+	<algorithm>
+	<sstream>
+	"ksiazkaADRESOWA.h"
+
+1598979868 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.h
+	<iostream>
+	<fstream>
+	<windows.h>
+	<vector>
+	<algorithm>
+	<sstream>
+
+1599070246 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.cpp
+	"ksiazkaADRESOWA.h"
+	<windows.h>
+
+1599070246 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.h
+	<iostream>
+	<vector>
+	"Uzytkownik.h"
+	<windows.h>
+
