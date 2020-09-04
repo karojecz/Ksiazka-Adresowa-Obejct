@@ -1,17 +1,12 @@
-#include <iostream>
-#include <fstream>
-#include <windows.h>
-#include <vector>
-#include <algorithm>
-#include <sstream>
+#ifndef UZYTKOWNIK_H
+#define UZYTKOWNIK_H
 
-/* MADE WITH LOVE */
+#include <iostream>
 
 using namespace std;
 
 class Uzytkownik
 {
-
     int id;
     string login;
     string haslo;
@@ -24,5 +19,5 @@ public:
     string pobierzLogin();
     string pobierzHaslo();
 
-
 };
+#endif
