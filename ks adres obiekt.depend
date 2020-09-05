@@ -2,7 +2,7 @@
 1599072731 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1599254093 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\main.cpp
+1599320228 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\main.cpp
 	<iostream>
 	<fstream>
 	<windows.h>
@@ -14,12 +14,12 @@
 1599248227 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.h
 	<iostream>
 
-1599253388 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.cpp
+1599323203 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.cpp
 	"ksiazkaADRESOWA.h"
 	<windows.h>
 	"uzytkownikManager.h"
 
-1599253388 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.h
+1599323203 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.h
 	<iostream>
 	"uzytkownikManager.h"
 
@@ -30,7 +30,7 @@
 1599248227 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\metodypomocnicze.h
 	<iostream>
 
-1599253388 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.h
+1599324506 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -39,10 +39,10 @@
 	<sstream>
 	"plikZUzytkownikami.h"
 
-1599318748 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.cpp
+1599322287 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.cpp
 	"plikZUzytkownikami.h"
 
-1599318748 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.h
+1599323850 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -50,7 +50,7 @@
 	"Uzytkownik.h"
 	"metodyPomocnicze.h"
 
-1599253990 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.cpp
+1599320228 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.cpp
 	"uzytkownikManager.h"
 	"plikZUzytkownikami.h"
 
