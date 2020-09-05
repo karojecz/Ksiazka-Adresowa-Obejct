@@ -20,10 +20,11 @@ class UzytkownikMenadzer
     Uzytkownik podajDaneNowegoUzytkownika();
    int  pobierzIdNowegoUzytkownika();
    bool czyIstniejeLogin(string login);
-   //string zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami(Uzytkownik uzytkownik);
+
    PlikZUzytkownikami plikZUzytkownikami;
 
 public:
+    UzytkownikMenadzer(string nazwaPlikuZUzytkownikami):plikZUzytkownikami(nazwaPlikuZUzytkownikami){};
     void rejestracjaUzytkownika();
     void wypiszWszystkichUzytkownikow();
     void wczytajUzytkownikowZPliku();
