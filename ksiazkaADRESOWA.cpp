@@ -3,6 +3,10 @@
 #include <windows.h>
 #include "uzytkownikManager.h"
 
+KsiazkaAdresowa::KsiazkaAdresowa()
+{
+    uzytkownikMenadzer.wczytajUzytkownikowZPliku();
+}
 
 void KsiazkaAdresowa::rejestracjaUzytkownika()
 {
