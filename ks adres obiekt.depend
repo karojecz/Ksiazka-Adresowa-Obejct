@@ -2,7 +2,7 @@
 1599072731 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1599072731 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\main.cpp
+1599254093 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\main.cpp
 	<iostream>
 	<fstream>
 	<windows.h>
@@ -11,26 +11,26 @@
 	<sstream>
 	"ksiazkaADRESOWA.h"
 
-1599166403 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.h
+1599248227 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.h
 	<iostream>
 
-1599167080 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.cpp
+1599253388 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.cpp
 	"ksiazkaADRESOWA.h"
 	<windows.h>
 	"uzytkownikManager.h"
 
-1599167070 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.h
+1599253388 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.h
 	<iostream>
 	"uzytkownikManager.h"
 
-1599165973 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\metodypomocnicze.cpp
+1599248227 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\metodypomocnicze.cpp
 	"metodyPomocnicze.h"
 	<sstream>
 
-1599167017 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\metodypomocnicze.h
+1599248227 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\metodypomocnicze.h
 	<iostream>
 
-1599245744 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.h
+1599253388 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -39,17 +39,18 @@
 	<sstream>
 	"plikZUzytkownikami.h"
 
-1599245462 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.cpp
+1599318748 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.cpp
 	"plikZUzytkownikami.h"
 
-1599246653 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.h
+1599318748 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.h
 	<iostream>
 	<fstream>
 	<vector>
+	<cstdlib>
 	"Uzytkownik.h"
 	"metodyPomocnicze.h"
 
-1599245736 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.cpp
+1599253990 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.cpp
 	"uzytkownikManager.h"
 	"plikZUzytkownikami.h"
 
