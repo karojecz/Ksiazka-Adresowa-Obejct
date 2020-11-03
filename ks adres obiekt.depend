@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1599072731 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.cpp
+1599069131 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1599320228 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\main.cpp
+1604255374 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\main.cpp
 	<iostream>
 	<fstream>
 	<windows.h>
@@ -11,26 +11,27 @@
 	<sstream>
 	"ksiazkaADRESOWA.h"
 
-1599248227 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.h
+1599244627 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownik.h
 	<iostream>
 
-1599323203 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.cpp
+1603743870 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.cpp
 	"ksiazkaADRESOWA.h"
 	<windows.h>
 	"uzytkownikManager.h"
 
-1599323203 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.h
+1603743870 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\ksiazkaadresowa.h
 	<iostream>
 	"uzytkownikManager.h"
 
-1599248227 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\metodypomocnicze.cpp
+1601489355 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\metodypomocnicze.cpp
 	"metodyPomocnicze.h"
 	<sstream>
 
-1599248227 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\metodypomocnicze.h
+1601491835 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\metodypomocnicze.h
 	<iostream>
+	<algorithm>
 
-1599324506 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.h
+1604259967 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -38,19 +39,45 @@
 	<windows.h>
 	<sstream>
 	"plikZUzytkownikami.h"
+	"metodyPomocnicze.h"
+	"Adresat.h"
+	"plikZAdresatami.h"
 
-1599322287 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.cpp
+1602426686 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.cpp
 	"plikZUzytkownikami.h"
 
-1599323850 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.h
+1604435423 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzuzytkownikami.h
 	<iostream>
 	<fstream>
 	<vector>
 	<cstdlib>
 	"Uzytkownik.h"
+	"Adresat.h"
 	"metodyPomocnicze.h"
 
-1599320228 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.cpp
+1604255049 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\uzytkownikmanager.cpp
 	"uzytkownikManager.h"
 	"plikZUzytkownikami.h"
+	"plikZAdresatami.h"
+
+1603370087 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\adresat.cpp
+	"Adresat.h"
+
+1603915016 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\adresat.h
+	<iostream>
+
+1604256059 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzadresatami.cpp
+	"plikZAdresatami.h"
+	"uzytkownikManager.h"
+
+1604435423 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzadresatami.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	"Uzytkownik.h"
+	"Adresat.h"
+	"metodyPomocnicze.h"
+	<cstdlib>
+	<windows.h>
 

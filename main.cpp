@@ -11,8 +11,21 @@ using namespace std;
 
 int main()
 {
-    KsiazkaAdresowa ksiazkaAdresowa("uzytkownicy.txt");
-    //ksiazkaAdresowa.wczytajUzytkownikowZPliku();
-    //ksiazkaAdresowa.rejestracjaUzytkownika();
-    ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
+    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt");
+
+   // ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
+    ksiazkaAdresowa.rejestracjaUzytkownika();
+
+    ksiazkaAdresowa.logowanieUzytkownika();
+   // ksiazkaAdresowa.dodanieNowegoAdresata();
+    ksiazkaAdresowa.dodanieNowegoAdresata();
+    ksiazkaAdresowa.wyswietlWszystkichAdresatow();
+    ksiazkaAdresowa.wylogowanieUzytkownika();
+    ksiazkaAdresowa.logowanieUzytkownika();
+    ksiazkaAdresowa.wyswietlWszystkichAdresatow();
+/*
+        ksiazkaAdresowa.wylogowanieUzytkownika();
+    ksiazkaAdresowa.logowanieUzytkownika();
+    ksiazkaAdresowa.wyswietlWszystkichAdresatow();
+    */
 }
