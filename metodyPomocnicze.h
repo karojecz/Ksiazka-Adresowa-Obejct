@@ -2,6 +2,7 @@
 #define METODYPOMOCNICZE_H
 #include <iostream>
 #include<algorithm>
+#include <fstream>
 
 
 using namespace std;
@@ -14,6 +15,7 @@ class MetodyPomocnicze
     static string pobierzLiczbe(string tekst, int pozycjaZnaku);
     static int konwersjaStringNaInt(string liczba);
     static string zamienPierwszaLitereNaDuzaAPozostaleNaMale(string tekst);
+
 
 };
 #endif

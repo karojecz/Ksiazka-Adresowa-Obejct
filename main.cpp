@@ -11,12 +11,12 @@ using namespace std;
 
 int main()
 {
-    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt");
+    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
 
    // ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
-    ksiazkaAdresowa.rejestracjaUzytkownika();
+    //ksiazkaAdresowa.rejestracjaUzytkownika();
 
-    ksiazkaAdresowa.logowanieUzytkownika();
+   // ksiazkaAdresowa.logowanieUzytkownika();
    // ksiazkaAdresowa.dodanieNowegoAdresata();
     ksiazkaAdresowa.dodanieNowegoAdresata();
     ksiazkaAdresowa.wyswietlWszystkichAdresatow();

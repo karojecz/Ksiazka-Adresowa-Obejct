@@ -2,7 +2,8 @@
 #define KSIAZKAADRESOWA_H
 
 #include <iostream>
-#include "uzytkownikManager.h"
+#include "UzytkownikManager.h"
+#include "AdresatManager.h"
 
 
 /* MADE WITH LOVE */
@@ -13,15 +14,20 @@ class KsiazkaAdresowa
 {
 
     UzytkownikMenadzer uzytkownikMenadzer;
+    AdresatManager *adresatmanager;
+    const string NAZWA_PLIKU_Z_ADRESATAMI;
+
 public:
-   // KsiazkaAdresowa(string nazwaPlikuZUzytkownikami,string nazwaPlikuZAdresatami)
-   // :uzytkownikMenadzer(nazwaPlikuZUzytkownikami,nazwaPlikuZAdresatami)
-   KsiazkaAdresowa(string nazwaPlikuZUzytkownikami):uzytkownikMenadzer(nazwaPlikuZUzytkownikami)
+   KsiazkaAdresowa(string NAZWAPLIKUZUZYTKOWNIKAMI,string NAZWAPLIKUZADRESATAMI)
+   :uzytkownikMenadzer(NAZWAPLIKUZUZYTKOWNIKAMI), NAZWA_PLIKU_Z_ADRESATAMI(NAZWAPLIKUZADRESATAMI)
     {
-        uzytkownikMenadzer.wczytajUzytkownikowZPliku();
-
+    adresatmanager=NULL;
     };
-
+    ~KsiazkaAdresowa()
+    {
+        delete adresatmanager;
+        adresatmanager=NULL;
+    }
     void rejestracjaUzytkownika();
     void wypiszWszystkichUzytkownikow();
 
