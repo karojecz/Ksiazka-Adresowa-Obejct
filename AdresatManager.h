@@ -19,8 +19,14 @@ class AdresatManager
     vector <Adresat> adresaci;
     PlikZAdresatami plikZAdresatami;
     const int ID_ZALOGOWANEGO_UZYTKOWNIKA;
+    //int idEdytowanegoAdresata;
+    string liniaZDanymiAdresataOddzielonePionowymiKreskami;
      Adresat podajDaneNowegoAdresata();
      void wyswietlDaneAdresata(Adresat adresat);
+     int podajIdWybranegoAdresata();
+     void zaktualizujDaneWybranegoAdresata(Adresat adresat);
+     string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
+     char wybierzOpcjeZMenuEdycja();
 
  public:
     AdresatManager(string nazwaPlikuZAdresatami, int idZalogowanegoUzytkownika)
@@ -30,6 +36,10 @@ class AdresatManager
     }
     void dodajAdresata();
     void wyswietlWszystkichAdresatow();
+    void edytujAdresata();
+    int usunAdresata();
+    //int pobierzIdEdytowanegoAdresata();
+    //string pobierzLiniaZDanymiAdresataOddzielonePionowymiKreskami();
 };
 
 #endif

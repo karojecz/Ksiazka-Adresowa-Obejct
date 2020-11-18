@@ -7,19 +7,20 @@
 #include "Uzytkownik.h"
 #include "Adresat.h"
 #include "metodyPomocnicze.h"
+#include "plikTekstowy.h"
 
 using namespace std;
-class PlikZUzytkownikami
+class PlikZUzytkownikami : public PlikTekstowy
 {
 
     const string NAZWA_PLIKU_Z_UZYTKOWNIKAMI;
 
-    bool czyPlikJestPusty();
+    //bool czyPlikJestPusty();
     string zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami(Uzytkownik uzytkownik);
     Uzytkownik pobierzDaneUzytkownika(string daneJednegoUzytkownikaOddzielonePionowymiKreskami);
 public:
 
-    PlikZUzytkownikami(string nazwaPlikuZUzytkownikami):NAZWA_PLIKU_Z_UZYTKOWNIKAMI(nazwaPlikuZUzytkownikami){};
+    PlikZUzytkownikami(string nazwaPlikuZUzytkownikami):PlikTekstowy(nazwaPlikuZUzytkownikami){};
      //bool czyPlikJestPusty(fstream plikTekstowy);
     void dopiszUzytkownikaDoPliku(Uzytkownik uzytkownik);
 

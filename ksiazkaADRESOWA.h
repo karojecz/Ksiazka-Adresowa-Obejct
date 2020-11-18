@@ -18,6 +18,7 @@ class KsiazkaAdresowa
     const string NAZWA_PLIKU_Z_ADRESATAMI;
 
 public:
+    //KsiazkaAdresowa()
    KsiazkaAdresowa(string NAZWAPLIKUZUZYTKOWNIKAMI,string NAZWAPLIKUZADRESATAMI)
    :uzytkownikMenadzer(NAZWAPLIKUZUZYTKOWNIKAMI), NAZWA_PLIKU_Z_ADRESATAMI(NAZWAPLIKUZADRESATAMI)
     {
@@ -36,6 +37,8 @@ public:
     void zmianaHaslaZalogowanegoUzytkownika();
     void dodanieNowegoAdresata();
     void wyswietlWszystkichAdresatow();
+    void edytujAdresata();
+    void usunAdresata();
 
 
 };

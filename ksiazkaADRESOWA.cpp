@@ -14,7 +14,6 @@ void KsiazkaAdresowa::wypiszWszystkichUzytkownikow()
 {
     uzytkownikMenadzer.wypiszWszystkichUzytkownikow();
 }
-
 void KsiazkaAdresowa::logowanieUzytkownika()
 {
 
@@ -23,9 +22,6 @@ void KsiazkaAdresowa::logowanieUzytkownika()
     {
     adresatmanager= new AdresatManager(NAZWA_PLIKU_Z_ADRESATAMI,uzytkownikMenadzer.pobierzidZalogowanegoUzytkownika());
     }
-    else
-        cout<<"Musisz sie zalogowac"<<endl;
-    Sleep(2000);
 }
 void KsiazkaAdresowa::dodanieNowegoAdresata()
 {
@@ -46,4 +42,12 @@ void KsiazkaAdresowa::zmianaHaslaZalogowanegoUzytkownika()
 void KsiazkaAdresowa::wyswietlWszystkichAdresatow()
 {
     adresatmanager->wyswietlWszystkichAdresatow();
+}
+void KsiazkaAdresowa::edytujAdresata()
+{
+    adresatmanager->edytujAdresata();
+}
+void KsiazkaAdresowa::usunAdresata()
+{
+    adresatmanager->usunAdresata();
 }
