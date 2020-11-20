@@ -77,10 +77,7 @@ void UzytkownikMenadzer::wypiszWszystkichUzytkownikow()
      cout<<uzytkownicy[i].pobierzHaslo()<<endl;
     }
 }
-void UzytkownikMenadzer::zapiszWszystkichUzytkownikowDoPliku()
-{
-    uzytkownicy=plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku();
-}
+
 
 
 
@@ -88,6 +85,7 @@ int UzytkownikMenadzer::logowanieUzytkownika()
 {
     Uzytkownik uzytkownik;
     string login = "", haslo = "";
+    idZalogowanegoUzytkownika=0;
 
     cout << endl << "Podaj login: ";
     cin.clear();
@@ -139,7 +137,7 @@ void UzytkownikMenadzer::zmianaHaslaZalogowanegoUzytkownika()
             system("pause");
         }
     }
-    zapiszWszystkichUzytkownikowDoPliku();
+    plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku(uzytkownicy);
 }
 int UzytkownikMenadzer::pobierzidZalogowanegoUzytkownika()
 {

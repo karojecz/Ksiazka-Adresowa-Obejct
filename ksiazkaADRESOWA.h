@@ -32,13 +32,18 @@ public:
     void rejestracjaUzytkownika();
     void wypiszWszystkichUzytkownikow();
 
-    void logowanieUzytkownika();
+    bool logowanieUzytkownika();
     void wylogowanieUzytkownika();
     void zmianaHaslaZalogowanegoUzytkownika();
     void dodanieNowegoAdresata();
     void wyswietlWszystkichAdresatow();
     void edytujAdresata();
     void usunAdresata();
+    void wyszukajAdresatowPoNazwisku();
+    void wyszukajAdresatowPoImieniu();
+
+    char wybierzOpcjeZMenuGlownego();
+    char wybierzOpcjeZMenuUzytkownika();
 
 
 };

@@ -37,7 +37,8 @@ public:
     int logowanieUzytkownika();
     void wylogowanieUzytkownika();
     void zmianaHaslaZalogowanegoUzytkownika();
-    void zapiszWszystkichUzytkownikowDoPliku();
+    //void zapiszWszystkichUzytkownikowDoPliku(vector <Uzytkownik> uzytkownicy);
     bool czyUzytkownikJestZalogowany();
+    void wyszukajAdresatowPoNazwisku();
 };
 #endif

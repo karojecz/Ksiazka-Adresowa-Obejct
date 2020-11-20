@@ -57,9 +57,9 @@ vector <Uzytkownik> PlikZUzytkownikami::wczytajUzytkownikowZPliku()
     }
    return uzytkownicy;
 }
-vector <Uzytkownik> PlikZUzytkownikami::zapiszWszystkichUzytkownikowDoPliku()
+void PlikZUzytkownikami::zapiszWszystkichUzytkownikowDoPliku(vector <Uzytkownik> uzytkownicy)
 {
-    vector <Uzytkownik> uzytkownicy;
+    //vector <Uzytkownik> uzytkownicy;
     fstream plikTekstowy;
     string liniaZDanymiUzytkownika = "";
     vector <Uzytkownik>::iterator itrKoniec = --uzytkownicy.end();

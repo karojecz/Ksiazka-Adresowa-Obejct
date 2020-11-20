@@ -4,6 +4,7 @@
     {
         if (noweId>=0)
         id=noweId;
+        cout<<"o";
     }
         void Adresat::ustawIdUzytkownika(int noweIdUzytkownika)
     {

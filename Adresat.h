@@ -8,7 +8,7 @@ using namespace std;
 class Adresat
 {
     int id = 0, idUzytkownika = 0;
-    string imie = "", nazwisko = "", numerTelefonu = "", email = "", adres = "";
+     string imie = "", nazwisko = "", numerTelefonu = "", email = "", adres = "";
 
 public:
     void ustawId(int noweId);

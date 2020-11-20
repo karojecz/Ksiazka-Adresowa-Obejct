@@ -27,6 +27,7 @@ class AdresatManager
      void zaktualizujDaneWybranegoAdresata(Adresat adresat);
      string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
      char wybierzOpcjeZMenuEdycja();
+    void  wyswietlIloscWyszukanychAdresatow(int iloscAdresatow);
 
  public:
     AdresatManager(string nazwaPlikuZAdresatami, int idZalogowanegoUzytkownika)
@@ -38,6 +39,8 @@ class AdresatManager
     void wyswietlWszystkichAdresatow();
     void edytujAdresata();
     int usunAdresata();
+    void wyszukajAdresatowPoNazwisku();
+    void wyszukajAdresatowPoImieniu();
     //int pobierzIdEdytowanegoAdresata();
     //string pobierzLiniaZDanymiAdresataOddzielonePionowymiKreskami();
 };
