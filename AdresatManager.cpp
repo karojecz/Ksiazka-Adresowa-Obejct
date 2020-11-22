@@ -211,6 +211,7 @@ int AdresatManager::usunAdresata()
             {
                 //numerLiniiUsuwanegoAdresata = zwrocNumerLiniiSzukanegoAdresata(idUsuwanegoAdresata);
                 plikZAdresatami.usunWybranaLinieWPliku(idUsuwanegoAdresata);
+                plikZAdresatami.podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(idUsuwanegoAdresata);
                 adresaci.erase(adresaci.begin()+i);
                 cout << endl << endl << "Szukany adresat zostal USUNIETY" << endl << endl;
                 system("pause");

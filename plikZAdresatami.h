@@ -19,6 +19,7 @@ class PlikZAdresatami: public PlikTekstowy
 {
     const string NAZWA_PLIKU_Z_ADRESATAMI;
     int idOstatniegoAdresata;
+
     //bool czyPlikJestPusty(fstream &plikTekstowy);
     string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
 
@@ -28,7 +29,7 @@ class PlikZAdresatami: public PlikTekstowy
    // void edytujWybranaLinieWPliku(int idEdytowanegoAdresata, string liniaZDanymiAdresataOddzielonePionowymiKreskami);
    void usunPlik(string nazwaPlikuZRozszerzeniem);
    void zmienNazwePliku(string staraNazwa, string nowaNazwa);
-
+   int  pobierzZPlikuIdOstatniegoAdresata();
 
 
 public:
@@ -37,11 +38,11 @@ public:
     idOstatniegoAdresata=0;
 
     };
-
     bool dopiszAdresataDoPliku(Adresat adresat);
     vector <Adresat> wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika);
     int pobierzidOstatniegoAdresata();
     void edytujWybranaLinieWPliku(int idEdytowanegoAdresata, string liniaZDanymiAdresataOddzielonePionowymiKreskami);
     void usunWybranaLinieWPliku(int idUsuwanegoAdresata);
+    int podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(int idUsuwanegoAdresata);
 };
 #endif

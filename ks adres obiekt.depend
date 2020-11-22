@@ -70,11 +70,11 @@
 1605860171 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\adresat.h
 	<iostream>
 
-1605724827 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzadresatami.cpp
+1606067304 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzadresatami.cpp
 	"plikZAdresatami.h"
 	"uzytkownikManager.h"
 
-1605546232 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzadresatami.h
+1606064105 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\plikzadresatami.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -86,7 +86,7 @@
 	<windows.h>
 	"plikTekstowy.h"
 
-1605860190 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\adresatmanager.cpp
+1606066533 source:c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\adresatmanager.cpp
 	"AdresatManager.h"
 
 1605821243 c:\users\karol1\desktop\ks.adresowa object\ks adres obiekt\adresatmanager.h
